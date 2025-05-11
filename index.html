@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zero81Competizione</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="logo.png" />
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <img src="logo.png" class="app-logo" alt="Logo Zero81" />
+  </header>
+  <main id="main-content">
+    <section class="home-screen">
+      <h1>Benvenuto in Zero81Competizione</h1>
+      <p>Seleziona una sezione dal menu in basso.</p>
+    </section>
+  </main>
+  <nav class="bottom-nav">
+    <button onclick="navigate('dashboard')">🏁<span>Dashboard</span></button>
+    <button onclick="navigate('eventi')">📅<span>Eventi</span></button>
+    <button onclick="navigate('piloti')">👤<span>Piloti</span></button>
+    <button onclick="navigate('live')">📺<span>Live</span></button>
+    <button onclick="navigate('altro')">⚙️<span>Altro</span></button>
+  </nav>
+</body>
+</html>

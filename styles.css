@@ -1,0 +1,53 @@
+
+body {
+  margin: 0;
+  background: #0a0a0a;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.app-header {
+  background-color: #111;
+  padding: 1rem;
+  text-align: center;
+}
+.app-logo {
+  height: 64px;
+}
+main {
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+h1 {
+  color: #FF007F;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #111;
+  border-top: 2px solid #222;
+}
+.bottom-nav button {
+  background: none;
+  border: none;
+  color: #00E1FF;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+.bottom-nav button span {
+  font-size: 0.7rem;
+  color: #ccc;
+}
+.bottom-nav button:hover {
+  background-color: #222;
+}
